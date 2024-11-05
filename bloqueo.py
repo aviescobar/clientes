@@ -13,5 +13,6 @@ lock_enabled = False
 
 # Función para manejar la conexión con el servidor
 def server_listener():
+  global lock_enabled
 
 

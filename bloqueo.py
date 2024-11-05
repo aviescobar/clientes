@@ -4,4 +4,6 @@ import time
 from pynput.mouse import Listener as MouseListener
 import keyboard
 
+# Configuración del cliente
+
 

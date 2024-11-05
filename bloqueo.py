@@ -8,4 +8,6 @@ import keyboard
 server_ip = '172.168.0.161'  # Dirección IP del servidor
 port = 12345  # Puerto del servidor
 
+# Variable para el bloqueo
+
 

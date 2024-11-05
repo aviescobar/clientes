@@ -29,5 +29,6 @@ def server_listener():
 
 # Función para bloquear el teclado
 def block_keyboard():
+  global lock_enabled
 
 

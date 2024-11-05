@@ -35,3 +35,5 @@ def block_keyboard():
       keyboard.block_key('esc')  # Se bloquean todas las teclas excepto "esc" en este ejemplo
     time.sleep(0.1)
 
+# Función para bloquear el mouse
+

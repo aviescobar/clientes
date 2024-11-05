@@ -31,5 +31,6 @@ def server_listener():
 def block_keyboard():
   global lock_enabled
   while True:
+    if lock_enabled:
 
 

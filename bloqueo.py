@@ -23,5 +23,6 @@ def server_listener():
       if comando == "LOCK":
         lock_enabled = True
         print("Teclado y mouse bloqueados por el servidor.")
+      elif comando == "UNLOCK":
 
 

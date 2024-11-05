@@ -41,3 +41,4 @@ def block_mouse(x, y, button, pressed):
 
 # Iniciar los hilos
 listener_thread = threading.Thread(target=server_listener)
+listener_thread.start()

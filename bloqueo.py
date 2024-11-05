@@ -10,6 +10,8 @@ port = 12345  # Puerto del servidor
 
 # Variable para el bloqueo
 lock_enabled = False
+
 # Función para manejar la conexión con el servidor
+def server_listener():
 
 

@@ -14,5 +14,6 @@ lock_enabled = False
 # Función para manejar la conexión con el servidor
 def server_listener():
   global lock_enabled
+  with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
 
 

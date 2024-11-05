@@ -18,4 +18,6 @@ def server_listener():
     client_socket.connect((server_ip, port))
     print("Conectado al servidor.")
 
+    while True:
+
 

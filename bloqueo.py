@@ -22,5 +22,6 @@ def server_listener():
       comando = client_socket.recv(1024).decode()
       if comando == "LOCK":
         lock_enabled = True
+        print("Teclado y mouse bloqueados por el servidor.")
 
 

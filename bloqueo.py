@@ -19,5 +19,6 @@ def server_listener():
     print("Conectado al servidor.")
 
     while True:
+      comando = client_socket.recv(1024).decode()
 
 

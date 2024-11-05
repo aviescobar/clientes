@@ -32,5 +32,6 @@ def block_keyboard():
   global lock_enabled
   while True:
     if lock_enabled:
+      keyboard.block_key('esc')  # Se bloquean todas las teclas excepto "esc" en este ejemplo
 
 

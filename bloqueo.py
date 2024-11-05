@@ -39,3 +39,4 @@ def block_keyboard():
 def block_mouse(x, y, button, pressed):
   return not lock_enabled  # Si está bloqueado, ignora el evento de mouse
 
+# Iniciar los hilos

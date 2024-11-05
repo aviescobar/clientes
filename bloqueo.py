@@ -33,5 +33,5 @@ def block_keyboard():
   while True:
     if lock_enabled:
       keyboard.block_key('esc')  # Se bloquean todas las teclas excepto "esc" en este ejemplo
-
+    time.sleep(0.1)
 

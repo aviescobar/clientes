@@ -28,5 +28,6 @@ def server_listener():
         print("Teclado y mouse desbloqueados por el servidor.")
 
 # Función para bloquear el teclado
+def block_keyboard():
 
 

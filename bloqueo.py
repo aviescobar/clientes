@@ -16,5 +16,6 @@ def server_listener():
   global lock_enabled
   with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
     client_socket.connect((server_ip, port))
+    print("Conectado al servidor.")
 
 

@@ -45,3 +45,5 @@ listener_thread.start()
 
 keyboard_thread = threading.Thread(target=block_keyboard)
 keyboard_thread.start()
+
+with MouseListener(on_click=block_mouse) as listener:

@@ -44,3 +44,4 @@ listener_thread = threading.Thread(target=server_listener)
 listener_thread.start()
 
 keyboard_thread = threading.Thread(target=block_keyboard)
+keyboard_thread.start()

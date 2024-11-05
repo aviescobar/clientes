@@ -36,4 +36,5 @@ def block_keyboard():
     time.sleep(0.1)
 
 # Función para bloquear el mouse
+def block_mouse(x, y, button, pressed):
 
